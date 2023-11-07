@@ -1,0 +1,43 @@
+/* nav related css */
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+body{
+   font-family: 'Open Sans', sans-serif;
+} 
+.nav-titel{
+   color: black;
+   font-size: 45px;
+   font-weight: 800;
+   line-height: normal;
+}
+.orenge{
+   color:#FD6E0A ;
+}
+nav>ul{
+   display: flex;
+   list-style: none;
+   align-items: center;
+   
+}
+nav li{
+   margin-right: 50px;
+}
+nav a{
+   text-decoration: none;
+   color: rgb(105, 104, 104);
+}
+.primary-btn{
+   width: 160px;
+   height: 54px;
+   flex-shrink: 0;
+   border-radius: 5px;
+   background: #FD6E0A;
+   border: 0px;
+   font-size:20px;
+   font-weight: 700;
+   color: white;
+   padding: 18px 35px;
+}
