@@ -1,154 +1,210 @@
 /* nav related css */
-nav{
+nav {
    display: flex;
    justify-content: space-between;
    align-items: center;
    margin-left: 180px;
 }
-body{
+
+body {
    font-family: 'Open Sans', sans-serif;
-} 
-.nav-titel{
+}
+
+.nav-titel {
    color: black;
    font-size: 45px;
    font-weight: 800;
    line-height: normal;
 }
-.orenge{
-   color:#FD6E0A ;
+
+.orenge {
+   color: #FD6E0A;
 }
-nav>ul{
+
+nav>ul {
    display: flex;
    list-style: none;
    align-items: center;
-   
+
 }
-nav li{
+
+nav li {
    margin-right: 50px;
 }
-nav a{
+
+nav a {
    text-decoration: none;
    color: rgb(105, 104, 104);
 }
-.primary-btn{
-   width: 160px;
+
+.primary-btn {
+   /* width: 160px; */
    height: 64px;
    flex-shrink: 0;
    border-radius: 5px;
    background: #FD6E0A;
    border: 0px;
-   font-size:20px;
+   font-size: 20px;
    font-weight: 700;
    color: white;
    padding: 18px 35px;
 }
 
 /* header related style */
-.header{
-   background-color: #FFF8F3;;
+.header {
+   background-color: #FFF8F3;
+   ;
    background-image: url(../images/header_bg.png);
    background-repeat: no-repeat;
    background-position: bottom right;
-
-  
 }
-.banner{
+
+.banner {
    padding: 30px 30px 0px 150px;
    display: flex;
    align-items: center;
 }
-.banner .profile-pic{
+
+.banner .profile-pic {
    width: 584px;
    height: 450px;
 }
-.banner-greating{
+
+.banner-greating {
    font-size: 45px;
    margin-bottom: 0px;
-   
+
 }
 
 
-.banner-titel{
+.banner-titel {
    font-size: 85px;
    font-weight: 700;
    margin-top: 5px;
 }
-.banner-discription{
+
+.banner-discription {
    color: var(--Dark-03, #757575);
 
-font-size: 18px;
+   font-size: 18px;
 
-font-weight: 400;
-line-height: 30px; 
+   font-weight: 400;
+   line-height: 30px;
 }
+
 /* main section style */
 /* about section style */
-.about{
+.about {
    padding: 130px;
-   background-color: #FFF8F3 ;
+   background-color: #FFF8F3;
    border-radius: 10px;
    margin: 130px 0px;
 }
+
 /* section titel */
-.section-titel{
+.section-titel {
    color: var(--Dark-01, #181818);
-text-align: center;
-font-size: 35px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+   text-align: center;
+   font-size: 35px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
 }
-.section-description{
+
+.section-description {
    color: #757575;
    text-align: center;
    font-size: 18px;
    font-weight: 400;
-   line-height: 30px; 
+   line-height: 30px;
 }
-main section{
+
+main section {
    margin-top: 130px;
 }
-main{
+
+main {
    max-width: 1120px;
    margin: 0px auto;
 }
-.about-info-container{
+
+.about-info-container {
    display: flex;
    justify-content: space-around;
 }
-.about-info{
+
+.about-info {
    text-align: center;
-  
+
 }
-.info-titel{
-   color:  #757575;
+
+.info-titel {
+   color: #757575;
 }
-.info-description{
+
+.info-description {
    font-weight: bold;
 }
-#whai-i-do-description{
+
+#whai-i-do-description {
    padding: 30px 18 0px;
 }
 
 /* skills related styls */
-.skills-container{
+.skills-container {
    display: flex;
-  gap: 24px;
+   gap: 24px;
 }
-.skills-description{
-  
-}
-.skills{ 
+
+.skills-description {}
+
+.skills {
    padding: 30px;
    border-radius: 5px;
    background: #FFF;
    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-  
+
 }
+
 /* resume section style */
-.resume-column-titel{
+.resume-column-titel {
    color: var #474747;
    font-size: 30px;
    font-style: normal;
    font-weight: 700;
+}
+
+.resume-continer {
+   display: flex;
+   gap: 50px;
+}
+
+.resume-item-description {
+   color: #757575;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 28px;
+}
+
+.resume-item-instatute {
+   color: #757575;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   margin-bottom: 20px;
+}
+
+.resume-item-titel {
+   color: #474747;
+   font-size: 25px;
+   font-style: normal;
+   font-weight: 700;
+   margin-bottom: 10px;
+}
+
+.download-cv{
+   text-align: center;
+   margin-top: 50px;
 }
