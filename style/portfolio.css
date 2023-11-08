@@ -3,6 +3,7 @@ nav{
    display: flex;
    justify-content: space-between;
    align-items: center;
+   margin-left: 220px;
 }
 body{
    font-family: 'Open Sans', sans-serif;
@@ -31,7 +32,7 @@ nav a{
 }
 .primary-btn{
    width: 160px;
-   height: 54px;
+   height: 64px;
    flex-shrink: 0;
    border-radius: 5px;
    background: #FD6E0A;
@@ -40,4 +41,19 @@ nav a{
    font-weight: 700;
    color: white;
    padding: 18px 35px;
+}
+
+/* header related style */
+.header{
+   background-color: #fbede3;;
+}
+.banner{
+   padding: 30px 30px 30px 220px;
+   display: flex;
+   align-items: center;
+}
+.banner .profile-pic{
+   width: 584px;
+   height: 450px;
+  
 }
